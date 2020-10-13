@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  text-align: center;
+  transform: translate(0, -100%);
+  width: 100%;
+  font-family: 'Impact', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  /*text-shadow: 0px 0px 16px orange;
+  -webkit-text-stroke: 1px black;*/
+}
+
+.bar {
+  background-color: black;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
